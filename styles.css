@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Kanit:wght@300&display=swap');
+
+/* Set the base styles for the body and HTML elements */
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #777;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: 'Heebo', sans-serif; /* Use the 'Heebo' font family */
+  font-family: 'Kanit', sans-serif; /* Use the 'Kanit' font family */
+}
+
+/* Styling for the background images */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling for the first background image */
+.bgimg-1 {
+  background-image: url("OIP.jpg");
+  min-height: 400px;
+}
+
+/* Styling for the second background image */
+.bgimg-2 {
+  background-image: url("OIP1.jpg");
+  min-height: 400px;
+}
+
+/* Styling for the third background image */
+.bgimg-3 {
+  background-image: url("sage.jpg");
+  min-height: 400px;
+}
+
+/* Styling for the caption text */
+.caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+/* Styling for the border of the caption text */
+.caption span.border {
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 40px;
+}
+
+/* Styling for the heading text */
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Styling for the content section */
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Styling for the paragraphs within the content section */
+.content>p {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+/* Styling for the main heading within the content section */
+.content>h1 {
+  font-size: 100px;
+  margin-top: 150px;
+  margin-bottom: 0;
+  text-shadow: 5px 5px 5px red;
+}
+
+/* Styling for the buttons */
+#myBtn {
+  width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+#myBtn2 {
+  width: auto;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+/* Styling for the hover effect on buttons */
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Styling for the video section */
+.video-div {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Styling for the video within the video section */
+.video-div video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Styling for the parallax section */
+.parallax-div {
+  position: relative;
+  z-index: 0;
+}
+
+/* Styling for the video section */
+.video-div {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
